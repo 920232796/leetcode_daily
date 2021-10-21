@@ -6,7 +6,7 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         pass
         if len(s) == 1:
-            return 1 
+            return 1
         start = 0
         end = 1
         res = -1
