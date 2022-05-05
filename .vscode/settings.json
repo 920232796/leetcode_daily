@@ -12,6 +12,13 @@
         "map": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "iosfwd": "cpp",
+        "__string": "cpp",
+        "algorithm": "cpp",
+        "stack": "cpp",
+        "queue": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp"
     }
 }

@@ -1,10 +1,9 @@
-#include<iostream>
-#include<map>
-#include<vector>
 
+#include<iostream>
+#include<vector>
+#include<map>
 
 using namespace std;
-
 
 class Solution {
 public:
@@ -17,23 +16,26 @@ public:
             } else {
                 res.push_back(i);
                 res.push_back(m[target - nums[i]]);
-                return res ;
             }
         }
         return res;
     }
 };
 
+
+
 int main() {
 
+    // int a[3] = {1, 2, 3};
+    vector<int> a_vec = {1, 2, 3, 4, 5, 6};
+    int target = 11;
+    
     Solution s = Solution();
-    int a[3] = {2, 7, 9};
-    vector<int> aa(a, a + 3);
-    vector<int> res = s.twoSum(aa, 9);
-    for (int i = 0; i < res.size(); i ++) {
-        cout<<res[i]<<" ";
+    vector<int> res = s.twoSum(a_vec, target);
 
+    for(int i = 0; i < res.size(); i ++) {
+        cout<<res[i]<<" ";
     }
-    cout<<endl;
-     
+    cout<<"hello world"<<endl;
 }
+
